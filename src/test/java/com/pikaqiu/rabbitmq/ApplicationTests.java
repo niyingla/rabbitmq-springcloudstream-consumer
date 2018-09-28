@@ -1,4 +1,4 @@
-package com.bfxy.rabbitmq;
+package com.pikaqiu.rabbitmq;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

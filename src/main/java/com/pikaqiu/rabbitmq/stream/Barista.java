@@ -1,4 +1,4 @@
-package com.bfxy.rabbitmq.stream;
+package com.pikaqiu.rabbitmq.stream;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.messaging.SubscribableChannel;
