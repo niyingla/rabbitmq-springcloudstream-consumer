@@ -8,11 +8,12 @@ import org.springframework.stereotype.Service;
 
 import com.rabbitmq.client.Channel;
 
-
+//stream这个注解必须
 @EnableBinding(Barista.class)
 @Service
 public class RabbitmqReceiver {  
 
+	//监听这个
     @StreamListener(Barista.INPUT_CHANNEL)  
     public void receiver(Message message) throws Exception {
 		Channel channel = (com.rabbitmq.client.Channel) message.getHeaders().get(AmqpHeaders.CHANNEL);
